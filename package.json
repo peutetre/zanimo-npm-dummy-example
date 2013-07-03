@@ -1,0 +1,18 @@
+{
+    "name": "zanimo-npm-dummy-example",
+    "description": "Using Zanimo - the browserify way...",
+    "version": "0.0.0",
+    "author": "Paul Panserrieu <paul@42loops.com> (http://42loops.com)",
+    "license": "MIT",
+    "scripts": {
+        "build": "browserify ./lib/entry.js -o www/app.js --debug",
+        "open": "opener ./www/index.html"
+    },
+    "dependencies": {
+        "zanimo": "~0.0.6"
+    },
+    "devDependencies": {
+        "browserify": "~2.11",
+        "opener": "~1.3"
+    }
+}
