@@ -11,7 +11,8 @@
     "dependencies": {
         "q": "0.9.x",
         "zanimo": "~0.0.6",
-        "qimage": "~1.0.0"
+        "qimage": "~1.0.0",
+        "qstart": "~0.0.2"
     },
     "devDependencies": {
         "browserify": "~2.11",
